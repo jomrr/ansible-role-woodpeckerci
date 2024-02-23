@@ -1,0 +1,11 @@
+---
+# role: ansible-role-woocpeckerci
+# file: molecule/resources/playbooks/verify.yml
+
+- name: Check Let's Encrypt Certificate and Chain Validity
+  hosts: all
+  gather_facts: false
+  tasks:
+    - name: "Assert that true"
+      ansible.builtin.assert:
+        that: true

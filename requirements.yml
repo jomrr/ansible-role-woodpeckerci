@@ -1,0 +1,9 @@
+---
+# role: ansible-role-woocpeckerci
+# file: requirements.yml
+
+collections:
+  - community.general
+  - containers.podman
+
+roles: []
