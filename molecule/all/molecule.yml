@@ -28,34 +28,34 @@ verifier:
   name: ansible
 platforms:
   - name: almalinux-woocpeckerci
-    image: "docker.io/jam82/molecule-almalinux:latest"
+    image: "docker.io/jomrr/molecule-almalinux:latest"
     pre_build_image: true
     command: ""
   - name: alpine-woocpeckerci
-    image: "docker.io/jam82/molecule-alpine:latest"
+    image: "docker.io/jomrr/molecule-alpine:latest"
     pre_build_image: true
     command: ""
   - name: arch-woocpeckerci
-    image: "docker.io/jam82/molecule-archlinux:latest"
+    image: "docker.io/jomrr/molecule-archlinux:latest"
     pre_build_image: true
     command: ""
   - name: debian-woocpeckerci
-    image: "docker.io/jam82/molecule-debian:latest"
+    image: "docker.io/jomrr/molecule-debian:latest"
     pre_build_image: true
     command: ""
   - name: fedora-woocpeckerci
-    image: "docker.io/jam82/molecule-fedora:latest"
+    image: "docker.io/jomrr/molecule-fedora:latest"
     pre_build_image: true
     command: ""
   - name: opensuse-woocpeckerci
-    image: "docker.io/jam82/molecule-opensuse:15"
+    image: "docker.io/jomrr/molecule-opensuse:15"
     pre_build_image: true
     command: ""
   - name: tumbleweed-woocpeckerci
-    image: "docker.io/jam82/molecule-opensuse:tumbleweed"
+    image: "docker.io/jomrr/molecule-opensuse:tumbleweed"
     pre_build_image: true
     command: ""
   - name: ubuntu-woocpeckerci
-    image: "docker.io/jam82/molecule-ubuntu:latest"
+    image: "docker.io/jomrr/molecule-ubuntu:latest"
     pre_build_image: true
     command: ""
